@@ -5,11 +5,11 @@
 
 
 pub fn animal_habitat(animal: &str) -> &'static str {
-    let identifier = if animal == "crab" {
+    let identifier = if (animal == "crab") {
         1.0
-    } else if animal == "gopher" {
+    } else if (animal == "gopher") {
         2.0
-    } else if animal == "snake" {
+    } else if (animal == "snake") {
         3.0
     } else {
         9.0
